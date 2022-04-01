@@ -1,0 +1,13 @@
+objectId,insuranceName,client,insuranceType,sumInsured,premiumAdvancePercentage,calcualtionBaseType,calculationBaseUnit,reportingCycle,startingDate
+9ab6c03d-502b-4ebd-b585-b34916e2f70d,Public Utilities,Nolan-Moore,Games,1697585.98,92.66,n/a,Ruble,5,2022-04-01
+9a6a7719-8cf0-4dfa-9f3b-6d4f3a364112,n/a,Champlin-Nitzsche,Garden,3524737.0,79.54,n/a,Ruble,1,2022-04-02
+1c737be7-7a1c-432d-975f-c42094ab8c57,Health Care,Schulist and Sons,Music,6459357.77,73.61,Consumer Durables,Euro,4,2022-04-03
+ca9291df-2e54-4305-a5b4-e3122afa6580,n/a,Thiel-White,Toys,3005825.15,69.53,Energy,Rupiah,3,2022-04-13
+66cc1e6e-bfe1-4d81-a3b7-486f026600ae,Technology,"Boyer, Lindgren and Barton",Books,3801029.58,17.23,n/a,Kyat,3,2022-04-04
+c075f2cd-49a6-4397-a772-a403a04a7c41,Capital Goods,Lemke Group,Outdoors,9980522.0,74.53,Consumer Non-Durables,Naira,9,2022-04-05
+c5a1fa33-3354-4972-ae69-7e6d32b70310,Technology,Parisian-Considine,Baby,3339092.45,52.48,Basic Industries,Dollar,8,2022-04-06
+5e19b6ab-4377-4c9c-9b09-46b80e6d4b3e,Technology,Feil-Baumbach,Tools,7950564.0,28.73,n/a,Hryvnia,8,2022-04-07
+12728646-dcf8-4190-b928-be7b63e81e33,Energy,Padberg-Hauck,Kids,301577.74,,Finance,Shekel,9,2022-04-08
+8b08372b-5f1d-4e57-b5a5-2db04fd1c36e,Consumer Durables,"Grady, Crooks and Deckow",Games,4560233.97,3.69,Technology,Peso,,
+7dc1265d-260b-4229-bef1-51ac9b43e464,Technology,Pfeffer-Rodriguez,Shoes,9340200.0,89.38,Finance,Krona,,
+ebc25d9e-8259-48ef-bbb8-4a4135643bf4,Finance,McKenzie LLC,Outdoors,5280668.0,31.06,Consumer Services,Dollar,,

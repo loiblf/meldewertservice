@@ -1,0 +1,64 @@
+{
+  "name": "meldewertservice",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^5",
+    "axios": "^0.25.0",
+    "express": "^4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@sap/ux-specification": "^1.96.5",
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "cds2types": "^2.7.2",
+    "sqlite3": "^5.0.2",
+    "ts-jest": "^27.1.3"
+  },
+  "engines": {
+    "node": "^16"
+  },
+  "scripts": {
+    "start": "cds run",
+    "watch-reportedvalueobject": "cds watch --open reportedvalueobject/webapp/index.html?sap-ui-xx-viewCache=false#fe-lrop-v4",
+    "watch-reportplan": "cds watch --open reportplan/webapp/index.html?sap-ui-xx-viewCache=false#fe-lrop-v4",
+    "watch-reportedvaluedocument": "cds watch --open reportedvaluedocument/webapp/index.html?sap-ui-xx-viewCache=false#fe-lrop-v4",
+    "test": "jest",
+    "watch": "cds-ts watch"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "es2020": true,
+      "node": true,
+      "jest": true,
+      "mocha": true
+    },
+    "globals": {
+      "SELECT": true,
+      "INSERT": true,
+      "UPDATE": true,
+      "DELETE": true,
+      "CREATE": true,
+      "DROP": true,
+      "CDL": true,
+      "CQL": true,
+      "CXL": true,
+      "cds": true
+    },
+    "rules": {
+      "no-console": "off",
+      "require-atomic-updates": "off"
+    }
+  },
+  "sapux": [
+    "app/reportedvalueobject",
+    "app/reportplan",
+    "app/reportedvaluedocument"
+  ]
+}
